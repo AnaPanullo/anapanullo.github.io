@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <script src="script.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <form action="" method="post" onsubmit="validateForm(event)">
+        <table>
+           
+            <tr>
+                <td>CPF</td>
+                <td><input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" required></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Confirmar E-mail</td>
+                <td><input type="email" name="confrime_email" required></td>
+            </tr>
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" name="nome" required></td>
+            </tr>
+            <tr>
+                <td>Sobrenome:</td>
+                <td><input type="text" name="sobrenome" required></td>
+            </tr>
+            <tr>
+                <td>RG</td>
+                <td><input type="text" name="RG" required></td>
+            </tr>
+            <tr>
+                <td>CEP</td>
+                <td><input type="text" name="CEP" placeholder="xx.xxx-xxx" required></td>
+            </tr>
+            <tr>
+                <td>Celular</td>
+                <td><input type="text" name="celular" placeholder="(xx)xxxxx-xxxx" required></td>
+            </tr>
+ 
+           
+            <tr>
+                <td>Nascimento</td>
+                <td><input type="date" name="aniversario"></td>
+            </tr>
+            <tr>
+                <td>Endereço</td>
+                <td><input type="text" name="endereço"></td>
+            </tr>
+            <tr>
+                <td>Nº</td>
+                <td><input type="number" name="numero"></td>
+            </tr>
+            <tr>
+                <td>Bairro</td>
+                <td><input type="text" name="bairro"></td>
+            </tr>
+            <tr>
+                <td>Complemento</td>
+                <td><input type="text" name="complemento"></td>
+            </tr>
+            <tr>
+                <td>Cidade</td>
+                <td><input type="text" name="cidade"></td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>
+                    <select name="estado">
+                        <option value="">Selecione</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>DDD+ Telefone</td>
+                <td><input type="number" name="telefone" placeholder="(xx)xxxxx-xxxx"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Cadastrar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
